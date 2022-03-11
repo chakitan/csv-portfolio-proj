@@ -23,7 +23,7 @@ jobs:
         with:
           composer_version: 2.2.6
           command: update
-          args: -d "/src" --optimize-autoloader --no-progress
+          args: -d src --optimize-autoloader --no-progress
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
