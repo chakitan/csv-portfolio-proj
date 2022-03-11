@@ -22,7 +22,7 @@ jobs:
         uses: kawax/composer-update-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          COMPOSER_PATH: src
+          COMPOSER_PATH: /src
 #       - name: PHP Composer
 #         uses: baschny/php-composer-action@v1
 #         with:
